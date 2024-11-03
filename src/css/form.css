@@ -1,0 +1,67 @@
+button {
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 16px;
+    width: 120px;
+    height: 40px;
+    background: #6c8cff;
+  
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+  }
+  
+  button:hover {
+    background: #4e75ff;
+  }
+  
+  input,
+  textarea {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 326px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    padding: 8px 16px;
+  }
+  
+  textarea {
+    height: 80px;
+  }
+  
+  input,
+  textarea:hover {
+    border: 1px solid #000;
+  }
+  
+  .feedback-form {
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+  }
+  
+  .feedback-form label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .feedback-form button {
+    margin-top: 8px;
+    width: 95px;
+    height: 40px;
+  }
+  
