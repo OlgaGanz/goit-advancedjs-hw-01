@@ -11,6 +11,7 @@ export default defineConfig(({ command }) => {
     },
     root: 'src',
     build: {
+      base: '/goit-advancedjs-hw-01/', // Доданий базовий шлях
       sourcemap: true,
       rollupOptions: {
         input: glob.sync('./src/*.html'),
