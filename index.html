@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Olha Hanziienko. GOIT-advancedjs-hw-01</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <main class="container">
+      <h3>Olha Hanziienko. GOIT-advancedjs-hw-01</h3>
+      <div class="gallery">
+        <img src="/goit-advancedjs-hw-01/src/images/thumb/photo1.jpg" data-large="/goit-advancedjs-hw-01/src/images/large/photo1.jpg" alt="Gallery Image 1" title="Gallery Image 1" onclick="openModal(this)" />
+        <img src="/goit-advancedjs-hw-01/src/images/thumb/photo2.jpg" data-large="/goit-advancedjs-hw-01/src/images/large/photo2.jpg" alt="Gallery Image 2" title="Gallery Image 2" onclick="openModal(this)" />
+        <img src="/goit-advancedjs-hw-01/src/images/thumb/photo3.jpg" data-large="/goit-advancedjs-hw-01/src/images/large/photo3.jpg" alt="Gallery Image 3" title="Gallery Image 3" onclick="openModal(this)" />
+        <img src="/goit-advancedjs-hw-01/src/images/thumb/photo4.jpg" data-large="/goit-advancedjs-hw-01/src/images/large/photo4.jpg" alt="Gallery Image 4" title="Gallery Image 4" onclick="openModal(this)" />
+        <img src="/goit-advancedjs-hw-01/src/images/thumb/photo5.jpg" data-large="/goit-advancedjs-hw-01/src/images/large/photo5.jpg" alt="Gallery Image 5" title="Gallery Image 5" onclick="openModal(this)" />
+        <img src="/goit-advancedjs-hw-01/src/images/thumb/photo6.jpg" data-large="/goit-advancedjs-hw-01/src/images/large/photo6.jpg" alt="Gallery Image 6" title="Gallery Image 6" onclick="openModal(this)" />
+        <img src="/goit-advancedjs-hw-01/src/images/thumb/photo7.jpg" data-large="/goit-advancedjs-hw-01/src/images/large/photo7.jpg" alt="Gallery Image 7" title="Gallery Image 7" onclick="openModal(this)" />
+        <img src="/goit-advancedjs-hw-01/src/images/thumb/photo8.jpg" data-large="/goit-advancedjs-hw-01/src/images/large/photo8.jpg" alt="Gallery Image 8" title="Gallery Image 8" onclick="openModal(this)" />
+        <img src="/goit-advancedjs-hw-01/src/images/thumb/photo9.jpg" data-large="/goit-advancedjs-hw-01/src/images/large/photo9.jpg" alt="Gallery Image 9" title="Gallery Image 9" onclick="openModal(this)" />
+      </div>
+
+      <!-- Модальне вікно -->
+      <div id="modal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modal-image" alt="Enlarged gallery image" />
+        <div id="caption"></div>
+      </div>
+
+      <ul>
+        <li><a href="./1-gallery.html">- Gallery -</a></li>
+        <li><a href="./2-form.html">- Form -</a></li>
+      </ul>
+    </main>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
